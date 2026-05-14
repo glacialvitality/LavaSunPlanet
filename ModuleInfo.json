@@ -3,7 +3,7 @@
   "FolderName": "LavaSunPlanet",
   "Author": "GlacialVitality",
   "Description": "The various planets from Melty Molten Galaxy",
-  "Install": "git:https://github.com/glacialvitality/LavaJamboSunPlanet.git",
+  "Install": "git:https://github.com/glacialvitality/LavaSunPlanet.git",
   "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
   "SupportedGames": [
     "SB4"
@@ -12,12 +12,7 @@
     {
       "ProductMapObj" : [
         {
-          "Name" : "LavaDomedPlanet",
-          "Function" : "createExtActor<LavaSunPlanet>",
-          "Include" : "LavaSunPlanet.h"
-        },
-        {
-          "Name" : "LavaRotatePlanet",
+          "Name" : "LavaSunPlanet",
           "Function" : "createExtActor<LavaSunPlanet>",
           "Include" : "LavaSunPlanet.h"
         }
