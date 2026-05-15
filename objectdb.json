@@ -1,0 +1,46 @@
+{
+    "Classes": [
+        {
+            "Games": 3,
+            "InternalName": "LavaSunPlanet",
+            "Name": "LavaSunPlanet",
+            "Notes": "",
+            "Parameters": {},
+            "Progress": 0
+        }
+    ],
+    "Objects": [
+        {
+            "AreaShape": "Any",
+            "Category": "stagepart",
+            "ClassNameSMG1": "LavaSunPlanet",
+            "ClassNameSMG2": "LavaSunPlanet",
+            "File": "Map",
+            "Games": 3,
+            "InternalName": "LavaDomedPlanet",
+            "IsLeftover": false,
+            "IsUnused": false,
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Melty Molten -- Star Chip Planet",
+            "Notes": "The spherical planet where the player has to collect five Star Chips or defeat five Li'l Cinders in order to progress.",
+            "Progress": 2
+        },
+        {
+            "AreaShape": "Any",
+            "Category": "stagepart",
+            "ClassNameSMG1": "LavaSunPlanet",
+            "ClassNameSMG2": "LavaSunPlanet",
+            "File": "Map",
+            "Games": 3,
+            "InternalName": "LavaRotatePlanet",
+            "IsLeftover": false,
+            "IsUnused": false,
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Melty Molten -- Rotating Lava Planet",
+            "Notes": "The large rotating lava planet visited in the third mission. In SMG2, this planet currently displays a yellow glow (known bug)",
+            "Progress": 2
+        }
+    ]
+}
