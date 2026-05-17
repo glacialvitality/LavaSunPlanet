@@ -1,1 +1,14 @@
+# VSCode
+.vscode/
+*.code-workspace
+
+# Syati Build
 build/
+
+# Github
+.git/
+.gitignore
+
+# Other
+.DS_Store
+SyatiDoc
