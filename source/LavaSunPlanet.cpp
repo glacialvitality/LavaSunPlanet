@@ -22,10 +22,11 @@ void LavaSunPlanet::calcAndSetBaseMtx() {
     } else {
         TPos3f mtx;
         mtx.setInline(mRotator->getRotateMtx());
-        mtx.mMtx[0][3] = mTranslation.x;
-        mtx.mMtx[1][3] = mTranslation.y;
-        mtx.mMtx[2][3] = mTranslation.z;
-        //mtx.setTrans(mTranslation);
+        //mtx.mMtx[0][3] = mTranslation.x;
+        //mtx.mMtx[1][3] = mTranslation.y;
+        //mtx.mMtx[2][3] = mTranslation.z;
+        //MR::setMtxTrans(mtx, mTranslation);
+        mtx.setTrans(mTranslation);
         MR::setBaseTRMtx(this, mtx);
     }
 }
